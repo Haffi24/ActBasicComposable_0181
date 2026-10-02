@@ -1,5 +1,6 @@
 package com.example.tugaslogin.ui.theme
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.runtime.Composable
 
 @Composable
@@ -13,4 +14,12 @@ import androidx.compose.runtime.Composable
     }
 
 @Composable
-fun()
+fun TataletakRow(modifier: Modifier) {
+    Row(modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly) {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
+    }
+}
