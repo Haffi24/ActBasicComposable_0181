@@ -11,3 +11,6 @@ import androidx.compose.runtime.Composable
             Text(text = "Komponen4")
         }
     }
+
+@Composable
+fun()
