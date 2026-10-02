@@ -25,4 +25,17 @@ fun TataletakRow(modifier: Modifier) {
 }
 
 @Composable
-fun
+fun TataLetakBox(modifier: Modifier) {
+    BOX(
+        modifier = modifier
+            .fillMaxHeight()
+            .fillMaxWidth(), contentAlignment = Alignment.Center
+    ) {
+        Text(text = "Box 1")
+        Text(text = "Coloumn 1")
+        Text(text = "Row 1")
+        Text(text = "Box 2")
+        Text(text = "Coloumn 2")
+    }
+}
+
