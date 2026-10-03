@@ -50,5 +50,9 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
 
             )
-
-            
+            Text(
+                text = "Haffi Saifulloh",
+                color = Color.Blue,
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold
+            )
