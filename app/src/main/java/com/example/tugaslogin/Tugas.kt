@@ -56,3 +56,10 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold
             )
+
+            Text(
+                text = "20240140181",
+                color = Color.Black,
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold
+            )
