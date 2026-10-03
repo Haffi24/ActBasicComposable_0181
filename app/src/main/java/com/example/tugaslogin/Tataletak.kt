@@ -26,10 +26,10 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun TataletakColumn(modifier: Modifier) {
     Column(modifier = modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)) {
-        Text(text = "Komp 1")
-        Text(text = "Komp 2")
-        Text(text = "Komp 3")
-        Text(text = "Komp 4")
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
     }
 }
 
@@ -39,10 +39,10 @@ fun TataletakRow(modifier: Modifier) {
         modifier = modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
-        Text(text = "Komp 1")
-        Text(text = "Komp 2")
-        Text(text = "Komp 3")
-        Text(text = "Komp 4")
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
     }
 }
 
@@ -69,17 +69,17 @@ fun TataLetakColumnRow(modifier: Modifier) {
             modifier = modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
-            Text(text = "Komp 1 Baris 1")
-            Text(text = "Komp 2 Baris 1")
-            Text(text = "Komp 3 Baris 1")
+            Text(text = "Komponen1Baris1")
+            Text(text = "Komponen2Baris1")
+            Text(text = "Komponen3Baris1")
         }
         Row(
             modifier = modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
-            Text(text = "Komp 1 Baris 2")
-            Text(text = "Komp 2 Baris 2")
-            Text(text = "Komp 3 Baris 2")
+            Text(text = "Komponen1Baris2")
+            Text(text = "Komponen2Baris2")
+            Text(text = "Komponen3Baris2")
         }
     }
 }
@@ -91,14 +91,14 @@ fun TataLetakRowColumn(modifier: Modifier) {
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
         Column {
-            Text(text = "Komp 1 Kolom 1")
-            Text(text = "Komp 2 Kolom 1")
-            Text(text = "Komp 3 Kolom 1")
+            Text(text = "Komponen1Kolom1")
+            Text(text = "Komponen2Kolom1")
+            Text(text = "Komponen3Kolom1")
         }
         Column {
-            Text(text = "Komp 1 Kolom 2")
-            Text(text = "Komp 2 Kolom 2")
-            Text(text = "Komp 3 Kolom 2")
+            Text(text = "Komponen1Kolom2")
+            Text(text = "Komponen2Kolom2")
+            Text(text = "Komponen3Kolom2")
         }
     }
 }
@@ -120,17 +120,17 @@ fun TataLetakBoxColumnRow(modifier: Modifier) {
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "Komp 1")
-                    Text(text = "Komp 2")
-                    Text(text = "Komp 3")
+                    Text(text = "Col1_Row1_Komponen1")
+                    Text(text = "Col1_Row1_Komponen2")
+                    Text(text = "Col1_Row1_Komponen3")
                 }
                 Row(
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "Komp 4")
-                    Text(text = "Komp 5")
-                    Text(text = "Komp 6")
+                    Text(text = "Col1_Row2_Komponen1")
+                    Text(text = "Col1_Row2_Komponen2")
+                    Text(text = "Col1_Row2_Komponen3")
                 }
             }
         }
