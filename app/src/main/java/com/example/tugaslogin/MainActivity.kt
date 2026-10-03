@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             TugasLoginTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataLetakBoxColumnRow(
+                    HalamanProfil(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
