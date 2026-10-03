@@ -7,7 +7,7 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
     Box(modifier = modifier.fillMaxSize()) {
 
         Image(
-            painter = painterResource(id = R.drawable.background_masjid),
+            painter = painterResource(id = R.drawable.background),
             contentDescription = "Background",
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
