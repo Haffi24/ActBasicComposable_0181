@@ -12,3 +12,17 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 60.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
+            Text(
+                text = "Login",
+                color = Color.Blue,
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold
+            )
