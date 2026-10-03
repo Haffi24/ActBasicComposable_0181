@@ -97,7 +97,7 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
             ) {
                 Image(
                     painter = painterResource(id = R.drawable.gambar_profil),
-                    contentDescription = "Gambar Profil,
+                    contentDescription = "Gambar Profil",
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
                         .fillMaxHeight()
