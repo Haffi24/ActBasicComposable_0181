@@ -63,3 +63,24 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
                 fontSize = 28.sp,
                 fontWeight = FontWeight.Bold
             )
+
+            Box(
+                modifier = Modifier
+                    .size(260.dp)
+                    .clip(CircleShape)
+                    .background(Color(0xFFE8EAF6))
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.gambar_profil),
+                    contentDescription = "Gambar Profil,
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .fillMaxHeight()
+                        .width(130.dp)
+                )
+            }
+        }
+    }
+}
