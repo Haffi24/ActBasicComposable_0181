@@ -33,3 +33,13 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
                 fontSize = 16.sp
             )
 
+            Spacer(modifier = Modifier.height(40.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(150.dp)
+            )
+
+            Spacer(modifier = Modifier.height(40.dp))
+
