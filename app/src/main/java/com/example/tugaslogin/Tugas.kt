@@ -43,3 +43,12 @@ fun  HalamanProfil(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(40.dp))
 
+            Text(
+                text = "Nama",
+                color = Color.Red,
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold
+
+            )
+
+            
